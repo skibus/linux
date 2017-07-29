@@ -1,0 +1,7 @@
+    1  wc runAll.sh
+    2  find -type f -name sum.py
+    3  find -type f -name sum.py -exec file {} \;
+    4  find -type f -name sum.py -exec wc {} \;
+    5  find -type f -name sum.py -exec grep -Hn calc_sum {} \;
+    6  find -type f -name sum.py -exec grep -Hn while {} \;
+    7  history > exercise2-damian.txt

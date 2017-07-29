@@ -1,0 +1,20 @@
+    1  mkdir si41
+    2  cd si41/
+    3  touch sum.py
+    4  atom sum.py
+    5  pwd
+    6  ls
+    7  mkdir program
+    8  mv sum.py program
+    9  ls
+   10  cp -r program program2
+   11  cp -r program program3
+   12  cp -r program program4
+   13  ls
+   14  touch runAll.sh
+   15  ls -l
+   16  chmod ugo+w runAll.sh
+   17  gedit runAll.sh
+   18  chmod +x runAll.sh
+   19  ./runAll.sh
+   20  history > exercise1-damian.txt
